@@ -53,4 +53,18 @@ body {
     max-height: 100%;
     max-width: 100%;
   }
+
+  .rsvp {
+    text-align: center;
+  }
+
+  .rsvp a {
+    color: #21aff1;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .rsvp a:hover {
+    text-decoration: underline;
+  }
   
