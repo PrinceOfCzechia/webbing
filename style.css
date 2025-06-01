@@ -33,6 +33,7 @@ body {
   }
   
   .section h2 {
+    text-align: center;
     color: #b76e79;
     margin-bottom: 10px;
   }
