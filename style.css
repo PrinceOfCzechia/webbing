@@ -67,4 +67,15 @@ body {
   .rsvp a:hover {
     text-decoration: underline;
   }
+
+  .map {
+    margin: 40px auto;
+    max-width: 700px;
+    text-align: center;
+  }
+  
+  .map iframe {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
   
