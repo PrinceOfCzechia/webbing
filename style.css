@@ -28,6 +28,11 @@ body {
     font-weight: 400;
   }
   
+  p {
+    font-size: 32px;
+    font-weight: 600;
+  }
+
   .section {
     margin-top: 30px;
   }
