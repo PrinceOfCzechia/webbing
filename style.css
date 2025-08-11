@@ -6,13 +6,12 @@ body {
     padding: 0;
   }
   
-  .container {
-    max-width: 700px;
-    margin: 40px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 16px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  .centered_img {
+  display: block;
+  margin: 0 auto;
+  max-width: 10rem;
+  height: auto;
+  border-radius: 8px;
   }
   
   h1 {
