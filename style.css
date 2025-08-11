@@ -23,10 +23,15 @@ body {
   h2 {
     text-align: center;
     color: #e83fc1;
+    font-family: "Great Vibes", cursive;
+    font-size: 64px;
+    font-weight: 400;
   }
 
-  .handwritten {
-    font-family: "Great Vibes", cursive;
+  p {
+    font-size: 32px;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
   }
   
   .section {
