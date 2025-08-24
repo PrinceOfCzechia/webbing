@@ -89,20 +89,19 @@ body {
 
   .qr-wrapper {
   position: relative;
-  display: inline-block; /* ať to obalí přesně slovo */
+  display: inline-block;
 }
 
 .qr-link {
   text-decoration: underline;
 }
 
-/* Tooltip – výchozí stav: skrytý */
 .qr-tooltip {
   position: absolute;
   left: 50%;
-  bottom: 1.75em;            /* odsazení nad textem */
+  bottom: 1.75em;
   transform: translateX(-50%) scale(0.95);
-  width: 180px;              /* klidně uprav (např. 140–220px) */
+  width: 180px;
   max-width: 50vw;
   height: auto;
   border-radius: 8px;
@@ -113,10 +112,9 @@ body {
   visibility: hidden;
   transition: opacity .15s ease, transform .15s ease, visibility 0s linear .15s;
   z-index: 10;
-  pointer-events: none;      /* náhled neblokuje klik na odkaz */
+  pointer-events: none;
 }
 
-/* Zobrazení na :hover i při ovládání klávesnicí (:focus-within) */
 .qr-wrapper:hover .qr-tooltip,
 .qr-wrapper:focus-within .qr-tooltip {
   opacity: 1;
@@ -125,7 +123,6 @@ body {
   transition-delay: 0s;
 }
 
-/* Volitelné – malý trojúhelník pod tooltipem */
 .qr-wrapper:hover .qr-tooltip::after,
 .qr-wrapper:focus-within .qr-tooltip::after {
   content: "";
